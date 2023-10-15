@@ -1,0 +1,41 @@
+<html>
+
+<head>
+  <title>Sound Identification Web App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body style="background-color: blanchedalmond;">
+  <section id="first_slide"></section>
+  <div class="col-xs-12 header_div text-center">
+    <h2>RECOGNIZING ANIMALS BY VOICE</h2>
+    <p>Note: Play Different Sounds Like Barking, Meowing, Clucking, Squeaking, Background Noise</p>
+  </div>
+  <div class="main_div">
+    <center>
+      <br>
+      <button class="btn btn-warning" onclick="startClassification()">START</button>
+      <h3 id="voice">I Can Hear - </h3>
+      <h4 id="detected"> Accuracy - </h4>
+      <br>
+      <img src="BACKGROUND VOICE.gif" id="image" width="300" height="300" style="margin-left: 80px; margin-top: 50px;">
+    </center>
+  </div>
+  <div class="copy_right_footer">
+    Developed By - Pratyusha Uttam
+  </div>
+  <script src="main.js"></script>
+  </section>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    background: #f5dbda;
+}
+
+.header_div {
+    background: white;
+    color: cadetblue;
+}
+
+.header_div p {
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    color: darkgrey;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.main_div button {
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    margin-top: 30px;
+    width: 130px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: #6c757d;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    background-color: white;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 2px 2px 2px #565454;
+}
+
+#start {
+    font-family: 'Open Sans', sans-serif;
+}
